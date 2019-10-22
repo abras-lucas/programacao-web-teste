@@ -1,0 +1,36 @@
+O que é controle de versão, e por que você deve se importar? O controle de versão é um sistema que registra as mudanças feitas em um arquivo ou um conjunto de arquivos ao longo do tempo de forma que você possa recuperar versões específicas. Mesmo que os exemplos desse livro mostrem arquivos de código fonte sob controle de versão, você pode usá-lo com praticamente qualquer tipo de arquivo em um computador.
+
+Se você é um designer gráfico ou um web designer e quer manter todas as versões de uma imagem ou layout (o que você certamente gostaria), usar um Sistema de Controle de Versão (Version Control System ou VCS) é uma decisão sábia. Ele permite reverter arquivos para um estado anterior, reverter um projeto inteiro para um estado anterior, comparar mudanças feitas ao decorrer do tempo, ver quem foi o último a modificar algo que pode estar causando problemas, quem introduziu um bug e quando, e muito mais. Usar um VCS normalmente significa que se você estragou algo ou perdeu arquivos, poderá facilmente reavê-los. Além disso, você pode controlar tudo sem maiores esforços.
+Um sistema de controle de versão(nome auto-explicativo) tem o objetivo de gerenciar diferentes versões de um mesmo projeto. É possível obter históricos das modificações, permitir que vários programadores trabalhem no mesmo projeto, e permitir um comparativo entre várias versões do projeto.
+
+Dentre as muitas funções do controle de versão, existem 3 que são características fundamentais:
+
+Ele salva seu histórico
+Qualquer alteração no projeto, aquela linha modificada, ele irá salvar a modificação. Isso ajuda muito para saber o que foi mudado de uma versão para outra.
+
+Você pode desenvovler versões diferentes
+Os sistemas possuem branches(ramificações), permitindo que você crie versões diferentes do mesmo sistema sem afetar outros.
+
+Programar em paralelo
+Permiti que os desenvolvedores possam programar paralelamente sem haver alterações no código alheio.
+
+Como funciona
+O projeto fica armazenada no servidor(repositório remoto), onde ficam armazenados os históricos e modificações de cada versão. O desenvolvedor pode baixar a última versão e trabalhá-la, e posteriormente atualizar a versão contida no servidor.
+
+Essa sincronização de arquivos entre a estação de trabalho e o servidor é feito através dos comandos commit e update.
+
+O commit envia o conjunto de arquivos alterados ao servidor, gerando um novo histórico de atualização. O update faz o inverso, mandando a última versão dele ao computador do desenvolvedor.
+
+GIT é um dos muitos sistemas para controle de versão. É rápido, possui um design simples, gratuito, fácil instalação, configuração e baixa curva de aprendizado.
+
+Segue abaixo alguns termos que você verá muitas vezes no terminal de comando e também de outros sistemas:
+
+Commit: Salvar alterações realizadas.
+
+Branch: Cria uma nova ramificação do projeto?—?assim como em uma árvore -, permitindo seguir várias “linhas” diferentes de desenvolvimento para o mesmo projeto.
+
+Clone: Copiar um projeto já existente de algum repositório para sua estação de trabalho.
+
+Fork: Faz a cópia do repositório para outro repositório(Um projeto em uma conta do Github para outra conta).
+
+Merge: Junção de branches.

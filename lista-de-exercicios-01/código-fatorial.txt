@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int fatorial = 0, valor;
+
+    printf("Digite o numero: ");
+    scanf("%i", &valor);
+
+    for(fatorial = 1; valor > 1; valor--){
+
+      fatorial = fatorial * valor;
+
+    }
+
+    printf("\nFatorial: %i", fatorial);
+
+    return 0;
+}
